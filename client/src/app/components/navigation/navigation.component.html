@@ -4,17 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script>
+        $(document).ready(function() {
+          $('.sidenav').sidenav();  
+        });
+    </script>
 </head>
 <body>
-    <div class="container">
-        <nav>
-            <ul>
-                <li> <a class="waves-effect waves-light btn-large" href="#patients">Liste des patients</a></li>
-                <li> <a class="waves-effect waves-light btn-large" href="#about">docteur</a></li>
-                <li> <a href="#pat">Ajout patient</a></li>
+    <nav class="blue" style = "padding : 0px 10px">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Disp'akaiky</a>
+
+            <a href="#" class = "sidenav-trigger" data-target = "mobile-nav">
+                <i class = "material-icons">menu</i>
+            </a>
+            <ul class = "right hide-on-med-and-down center-align">
+                <li><a href="#"><i class="material-icons right" >home</i><span class = "flow-text" >Accueil</span></a></li>
+                <li><a href="#"><i class="material-icons right">healing</i><span class = "flow-text">Doctor</span></a></li>
+                <li><a href="#"><i class="material-icons right">group</i><span class = "flow-text">Patients</span></a></li>
+                <li><a href="#"><i class="material-icons right">contacts</i><span class = "flow-text">Contact</span></a></li>
             </ul>
-        </nav>
-    </div>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id = "mobile-nav">
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Doctor</a></li>
+        <li><a href="#">Liste des patients</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
 </body>
 </html>

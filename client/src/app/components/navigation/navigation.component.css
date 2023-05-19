@@ -1,0 +1,26 @@
+body {
+    background-color: #B6EAFA;
+}
+
+nav {
+    background-color: #d5eeea !important;
+    box-shadow: none !important;
+}
+
+ul li {
+    margin-left: 15px;  
+}
+
+span {
+    color: black;
+    font-style: inherit;
+}
+
+img {
+    height: 5px;
+    width: 5px;
+}
+.brand-logo {
+    margin-left: 20px;
+    color: black;
+}
