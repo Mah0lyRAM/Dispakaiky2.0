@@ -1,0 +1,42 @@
+<div class="container-fluid">
+    <h2 class="navbar-brand" href="#">Gestion des patients</h2>
+
+  <div class="form-container">
+    <div class="col">
+        <label for="inputNom" class="form-label">Nom</label>
+        <input type="text" class="form-control" placeholder="Entrer le nom du patient" aria-label="nom">
+    </div>
+    <div class="col">
+        <label for="inputPrenom" class="form-label">Prénom(s)</label>
+        <input type="text" class="form-control" placeholder="Entrer le(s) prénoms du patient" aria-label="prenom">
+    </div>
+    <div class="col">
+        <div class="row g-3">
+            <div class="col">
+                <label for="inputDN" class="form-label">Date de naissance</label>
+                <input type="date" class="datepicker">
+            </div>
+            <div class="col">
+                <label for="inputLN" class="form-label">Lieu de naissance</label>
+                <input type="text" class="form-control" placeholder="Lieu de naissance" aria-label="ln">
+            </div>
+          </div>    
+    </div>
+    <div class="col">
+        <label for="inputCIN" class="form-label">Numero de CIN</label>
+        <input type="text" class="form-control" placeholder="Entrer le numero de la CIN(sans espace)" aria-label="cin" maxlength="12">
+    </div>
+    <div class="col">
+        <label for="inputTraitement" class="form-label">Traitement</label>
+        <textarea name="traitement" id="" cols="30" rows="10"></textarea>
+    </div>
+
+    <button class="btn waves-effect waves-light #89f4d6 " type="submit" name="action">Ajouter
+        <i class="material-icons right">send</i>
+      </button>
+    
+      <button class="btn waves-effect waves-light #89f4d6 " type="submit" name="action">Modifier
+        <i class="material-icons right">send</i>
+      </button>
+</div>
+</div>

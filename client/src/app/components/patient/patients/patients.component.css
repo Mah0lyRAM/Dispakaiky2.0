@@ -1,0 +1,24 @@
+.patients-component {
+    background-image: url(../../../../assets/images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.form-container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 30px;
+    float: right;
+}
+
+h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    padding-left: 35%;
+}

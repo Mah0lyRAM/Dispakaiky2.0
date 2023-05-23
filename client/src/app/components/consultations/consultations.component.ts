@@ -1,14 +1,15 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-accueil',
-  templateUrl: './accueil.component.html',
-  styleUrls: ['./accueil.component.css']
+  selector: 'app-consultations',
+  templateUrl: './consultations.component.html',
+  styleUrls: ['./consultations.component.css']
 })
-export class AccueilComponent {
+export class ConsultationsComponent {
   constructor() { }
 
   ngOnInit(): void {
     // Code supplémentaire à exécuter lors de l'initialisation du composant
+    
   }
 }

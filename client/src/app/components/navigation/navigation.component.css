@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-    background-color: #d5eeea !important;
+    background-color: #89f4d6 !important;
     box-shadow: none !important;
 }
 
@@ -12,15 +12,15 @@ ul li {
 }
 
 span {
-    color: black;
     font-style: inherit;
 }
 
 img {
-    height: 5px;
-    width: 5px;
+    height: 10%;
+    width: 10%;
+    margin-bottom: 4px;
 }
+
 .brand-logo {
-    margin-left: 20px;
-    color: black;
+    margin-left: 40px;
 }

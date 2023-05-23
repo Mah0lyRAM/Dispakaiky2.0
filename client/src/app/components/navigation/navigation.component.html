@@ -14,31 +14,34 @@
     <script>
         $(document).ready(function() {
           $('.sidenav').sidenav();  
-        });
+        }); 
     </script>
 </head>
 <body>
     <nav class="blue" style = "padding : 0px 10px">
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Disp'akaiky</a>
-
+            <a href="#" class="brand-logo">
+                <img src="../../../assets/images/logo.jpeg" alt="Logo odu Disp'akaiky">
+            </a>
             <a href="#" class = "sidenav-trigger" data-target = "mobile-nav">
                 <i class = "material-icons">menu</i>
             </a>
             <ul class = "right hide-on-med-and-down center-align">
-                <li><a href="#"><i class="material-icons right" >home</i><span class = "flow-text" >Accueil</span></a></li>
-                <li><a href="#"><i class="material-icons right">healing</i><span class = "flow-text">Doctor</span></a></li>
-                <li><a href="#"><i class="material-icons right">group</i><span class = "flow-text">Patients</span></a></li>
-                <li><a href="#"><i class="material-icons right">contacts</i><span class = "flow-text">Contact</span></a></li>
+                <li><a routerLink="/accueil" (click)="accueil()"><i class="material-icons right" >home</i><span class = "flow-text" >Accueil</span></a></li>
+                <li><a routerLink="/docteur" (click)="docteur()"><i class="material-icons right">healing</i><span class = "flow-text">Doctor</span></a></li>
+                <li><a routerLink="/consultations"(click)="consultations()"><i class="material-icons right" >event_note</i><span class = "flow-text" >Consultations</span></a></li>
+                <li><a routerLink="/patients" (click)="patients()"><i class="material-icons right">group</i><span class = "flow-text">Patients</span></a></li>
+                <li><a routerLink="/contact" (click)="contact()"><i class="material-icons right">contacts</i><span class = "flow-text">Contact</span></a></li>
             </ul>
         </div>
     </nav>
 
     <ul class="sidenav" id = "mobile-nav">
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#">Doctor</a></li>
-        <li><a href="#">Liste des patients</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a routerLink="/accueil" (click)="accueil()"><i class="material-icons right" >home</i><span class = "flow-text" >Accueil</span></a></li>
+        <li><a routerLink="/docteur" (click)="docteur()"><i class="material-icons right">healing</i><span class = "flow-text">Doctor</span></a></li>
+        <li><a routerLink="/consultations"(click)="consultations()"><i class="material-icons right" >event_note</i><span class = "flow-text" >Consultations</span></a></li>
+        <li><a routerLink="/patients" (click)="patients()"><i class="material-icons right">group</i><span class = "flow-text">Patients</span></a></li>
+        <li><a routerLink="/contact" (click)="contact()"><i class="material-icons right">contacts</i><span class = "flow-text">Contact</span></a></li>
     </ul>
 </body>
 </html>
