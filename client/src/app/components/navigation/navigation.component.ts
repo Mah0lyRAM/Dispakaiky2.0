@@ -21,12 +21,12 @@ export class NavigationComponent {
   patients() {
     this.router.navigateByUrl('patients');
   }
-
-  contact() {
-    this.router.navigateByUrl('contact');
-  }
-
+  
   consultations() {
     this.router.navigateByUrl('consultations');
+  }
+
+  liste() {
+    this.router.navigateByUrl('liste');
   }
 }

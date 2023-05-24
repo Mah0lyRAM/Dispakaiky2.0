@@ -8,8 +8,8 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 import { AccueilComponent } from './components/accueil/accueil.component';
 import { DocteurComponent } from './components/docteur/docteur.component';
 import { PatientsComponent } from './components/patient/patients/patients.component';
-import { ContactComponent } from './components/contact/contact.component';
 import { ConsultationsComponent } from './components/consultations/consultations.component';
+import { ListePatientComponent } from './components/liste-patient/liste-patient.component';
 
 
 @NgModule({
@@ -19,8 +19,8 @@ import { ConsultationsComponent } from './components/consultations/consultations
     AccueilComponent,
     DocteurComponent,
     PatientsComponent,
-    ContactComponent,
     ConsultationsComponent,
+    ListePatientComponent,
   ],
   imports: [
     BrowserModule,

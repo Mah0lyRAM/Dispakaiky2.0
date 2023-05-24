@@ -1,3 +1,10 @@
 img {
-    background-repeat: cover;
+        height: 600px;
+        width: 1530px;
 }
+
+.text-overlay {
+        position: absolute;
+        text-align: center;
+}
+

@@ -10,5 +10,6 @@ export class AccueilComponent {
 
   ngOnInit(): void {
     // Code supplémentaire à exécuter lors de l'initialisation du composant
+    
   }
 }

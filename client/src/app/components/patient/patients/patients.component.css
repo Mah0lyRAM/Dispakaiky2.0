@@ -18,7 +18,10 @@ button {
 }
 
 h2 {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 50px;
-    padding-left: 35%;
+    font-family:'Courgette', serif;
+    font-size: 5em;
+    padding-left: 28%;
+    color: #89f4d6;
+    font-weight: 700;
+    
 }

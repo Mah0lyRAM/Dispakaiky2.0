@@ -1,0 +1,13 @@
+ .container-table {
+    background-color: #E6FFFD;
+    margin-top: 20px;
+}
+
+thead {
+    color: #146C94;
+}
+
+button {
+    margin-top: 20px;
+    margin-right: 20px;
+}

@@ -20,10 +20,11 @@
 <body>
     <nav class="blue" style = "padding : 0px 10px">
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo">
+            <a href="#" class="brand-logo hide-on-med-and-down">
                 <img src="../../../assets/images/logo.jpeg" alt="Logo odu Disp'akaiky">
             </a>
-            <a href="#" class = "sidenav-trigger" data-target = "mobile-nav">
+            <h4 class ="logo hide-on-large-only" >Disp'akaiky</h4>
+            <a href="#" class = "sidenav-trigger">
                 <i class = "material-icons">menu</i>
             </a>
             <ul class = "right hide-on-med-and-down center-align">
@@ -31,7 +32,7 @@
                 <li><a routerLink="/docteur" (click)="docteur()"><i class="material-icons right">healing</i><span class = "flow-text">Doctor</span></a></li>
                 <li><a routerLink="/consultations"(click)="consultations()"><i class="material-icons right" >event_note</i><span class = "flow-text" >Consultations</span></a></li>
                 <li><a routerLink="/patients" (click)="patients()"><i class="material-icons right">group</i><span class = "flow-text">Patients</span></a></li>
-                <li><a routerLink="/contact" (click)="contact()"><i class="material-icons right">contacts</i><span class = "flow-text">Contact</span></a></li>
+                <li><a routerLink="/liste" (click)="liste()"><i class="material-icons right">contacts</i><span class = "flow-text">Liste des patients</span></a></li>
             </ul>
         </div>
     </nav>
@@ -41,7 +42,6 @@
         <li><a routerLink="/docteur" (click)="docteur()"><i class="material-icons right">healing</i><span class = "flow-text">Doctor</span></a></li>
         <li><a routerLink="/consultations"(click)="consultations()"><i class="material-icons right" >event_note</i><span class = "flow-text" >Consultations</span></a></li>
         <li><a routerLink="/patients" (click)="patients()"><i class="material-icons right">group</i><span class = "flow-text">Patients</span></a></li>
-        <li><a routerLink="/contact" (click)="contact()"><i class="material-icons right">contacts</i><span class = "flow-text">Contact</span></a></li>
     </ul>
 </body>
 </html>
