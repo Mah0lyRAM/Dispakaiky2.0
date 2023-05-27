@@ -1,10 +1,35 @@
-img {
-        height: 600px;
-        width: 1530px;
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
 }
 
-.text-overlay {
+body {
+        background-color: #a9e5f0;
+}
+.image {
+        position: relative;
+        display: inline-block;
+        background-size: cover;
+        height: 720px;
+        width: 1525px;
+}
+
+.text {
         position: absolute;
-        text-align: center;
+        top: 30%;
+        left: 65%;
+        font-size: 4em;
+        transform: translate(-50%,-50%);
+        color: white;
+        font-style: 'Courgette', serif;
 }
 
+
+.carousel {
+        width: 300px; /* Adjust the width to your desired size */
+        height: 100px; /* Adjust the height to your desired size */
+        position: absolute;
+        top: 30%;
+        left: 65%;
+      }

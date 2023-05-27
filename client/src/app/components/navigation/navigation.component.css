@@ -1,9 +1,9 @@
 body {
-    background-color: #96dce8
+    background-color: #a9e5f0
 }
 
 nav {
-    background-color: #96dce8 !important;
+    background-color: #a9e5f0 !important;
     box-shadow: none !important;
 }
 
@@ -20,7 +20,7 @@ img {
     height: 10%;
     width: 10%;
     margin-bottom: 4px;
-    background-color: #96dce8;
+    background-color: #a9e5f0;
 }
 
 .brand-logo {
